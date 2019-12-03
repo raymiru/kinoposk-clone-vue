@@ -1,0 +1,43 @@
+#app {
+    --rating-neutral: #777;
+    --rating-positive: #093;
+    --section-item-title-dark: #fff;
+    --section-title-dark: #fff;
+    --section-title-light: #000000;
+    --test: #ff3172;
+    --test2: rgba(255, 204, 84, 0.64);
+    --film-card-title: #060077;
+    --film-card-cover: rgba(0,0,0,0.2);
+    --main-hover-color: #FF6600;
+    --rating-icon-color: #3bb33b;
+    --primary-text-color: #1f1f1f;
+    --background-app-light: #F4F4F4;
+    --background-app-dark: #1F1F23;
+    --background-header-dark: #18181B;
+    --background-header-input: rgba(242,242,242,0.15);
+    --background-header-input-active: #f2f2f2;
+    --background-content-page-light: white;
+    --background-content-page-dark: #0E0E10;
+    --fill-header-input-controls-inactive: rgba(255, 255, 255, 0.6);
+    --fill-header-input-controls-active: rgba(0, 0, 0, 0.4);
+    --sidebar-border-color-light: rgba(31, 31, 31, 0.1);
+    --sidebar-border-color-dark: rgba(251, 255, 251, 0.2);
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.black {
+    background-color: black;
+}
+
+.test {
+    background-color: #f2f2f2;
+}
+
+.test2 {
+    background-color: var(--test);
+}
+
+
