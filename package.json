@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --open",
-    "prod": "webpack --config webpack.dev.js"
+    "build": "webpack --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",

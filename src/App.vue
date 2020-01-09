@@ -1,16 +1,12 @@
 <template>
   <Flex style="position: relative" col id="app">
-    <vue-data-viewer :w="700" :h="700" />
-    <!--        <div class="dimensions">Window. W:{{windowWidth}}</div>-->
     <component :is="layout" />
   </Flex>
 </template>
 
 <script>
-import VueDataViewer from "./vue-data-viewer/dv";
 export default {
   name: "App",
-  components: { VueDataViewer },
   data() {
     return {
       windowWidth: window.innerWidth
