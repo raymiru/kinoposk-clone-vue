@@ -1,4 +1,4 @@
-#Kinopoisk clone vue
+# Kinopoisk clone vue
 
 Kinopoisk.ru main page using vue.js with adaptive layout
 
